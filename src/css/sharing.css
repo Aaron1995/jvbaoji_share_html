@@ -1,0 +1,172 @@
+#sharingMain{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+
+.sharingProcess{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.sharingProcess>ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sharingProcess>ul>li{
+    margin-top: 30px;
+    position: relative;
+}
+
+.sharingProcess>ul>li>span{
+    font-size: 30px;
+    color:#CE9D6D ;
+}
+
+.sharingProcess>ul>li>p{
+    font-size: 32px;
+}
+
+.sharingReward{
+    width: 100%;
+    height:500px;
+    position: relative;
+    background: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+
+}
+
+.sharingReward #wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+.sharingReward p{
+    font-size: 36px;
+    color:#D76A6A ;
+    text-align: center;
+}
+.sharingJoin>ul{
+    width: 80%;
+    margin: auto;
+}
+
+/*.sharingJoin ul li{
+    width: 20%;
+    float: left;
+
+}
+
+.sharingJoin ul li hr{
+    background-color:  #DBDBDB;
+    height: 8px;
+}*/
+
+.sharingHr{
+    width: 80%;
+    margin: auto;
+}
+
+.sharingHr  li{
+    position: relative;
+    width: 33%;
+    float: left;
+    z-index: 99;
+    margin-left: 11%;
+
+}
+
+.sharingHr {
+    padding-top: 100px;
+    width: 90%;
+}
+
+.sharingHr  li hr{
+    background-color:  #DBDBDB;
+    height: 8px;
+    margin-bottom: 100px;
+
+}
+
+.sharingJoinImg{
+    position: absolute;
+    z-index: 100;
+    left: 10%;
+    bottom: -100px;
+}
+
+.sharingJoinImg li{
+    width: 33.33%;
+    float: left;
+}
+
+
+
+
+
+.sharingJoin ul li p{
+    vertical-align: bottom;
+    font-size: 32px;
+    color: #DBDBDB;
+    padding-top: 10px;
+}
+
+#sharingCheck{
+    background-size:cover;
+    background-color: #D76A6A;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 999;
+    text-align: center;
+    font-size: 48px;
+    font-weight:500;
+    color: #ffffff;
+}
+
+#sharingCheck span{
+    margin: auto;
+    display: inline-block;
+    padding-top: 25px;
+    letter-spacing:8px;
+}
+
+.sharongStatistics{
+    padding-top: 36px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.sharongStatistics > div{
+    background-color:#EDEDEE ;
+    padding:20px 20px 20px 20px;
+}
+
+.sharongStatistics > div span{
+    font-size: 34px;
+    color:#9F9F9F ;
+}
+
+.sharongStatistics > div>div{
+    display: inline-block;
+    float: right;
+    font-size:24px;
+    border: 1px solid #D76A6A;
+    border-radius: 2px;
+    color: #D76A6A;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.waitingPaymentTxtReady{
+    color: #CC9A67;
+}

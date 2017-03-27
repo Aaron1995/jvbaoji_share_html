@@ -1,0 +1,45 @@
+<div id="unpaid">
+    <div class="unpaidTxt">
+        <h2>拍品流拍</h2>
+    	<div>
+			<div>
+				<img src="img/payment_icon_user@3x.png" id="winnerImg" />
+				<span><p id="winnerName"></p></span>
+        		<p>竞拍失败，买家未在规定时间内付款</p>
+			</div>
+			<ul>
+				<li id="highestPrice">
+					<h2>最高价格</h2>
+					<p id="highestAmount">8000</p>
+				</li>
+				<li id="transactionPrice">
+					<h2>成交价格</h2>
+					<p id="successfulPrice">8000</p>
+				</li>
+			</ul>
+		</div>
+    </div>
+    <div id="lowPriceList">
+		<h2>佣金榜单</h2>
+		<div class="userOffer" id="starList1">
+			<div id="wrapper1">
+				<div id="scroller1">
+					<ul id="theList1"><!--动态添加--></ul>
+                    <div id="pullUp" >
+                        <span class="pullUpIcon"></span><span class="pullUpLabel"  onclick="refresh=true;startGetData()">点击加载更多.....</span>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="userOffer" id="starList">
+            <h2>出价实况</h2>
+            <div id="wrapper">
+                <div id="scroller">
+                    <ul id="theList"><!--动态添加--></ul>
+                </div>
+            </div>
+        </div>
+
+</div>

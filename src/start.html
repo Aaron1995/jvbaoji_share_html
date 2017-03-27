@@ -1,0 +1,69 @@
+<div id="start">
+	<!--当前价格&结束倒计时-->
+	<div class="now">
+		<table width="100%">
+			<tbody>
+				<tr class="priceAndTime">
+					<td class="td" style="border-right: 1px solid grey;width: 50%">
+						<strong>当前价格</strong>
+						<div id="nowPrice">2222</div>
+					</td>
+					<td class="td">
+						<strong>结束倒计时</strong>
+						<div id="timer"></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!--我要出价-->
+	<div class="nowOver">
+		<div class="bid">
+			<input type="submit" value="我要出价" style="width:686px; height: 88px; font-size: 50px; color: #fff; background-image: url('img/拍卖页面/payment_bg_clickable@2x.png'); border: none;" />
+
+		</div>
+		<!--价格说明-->
+		<div class="payMoney">
+			<table width="100%">
+				<tbody>
+					<tr class="payMoneylist">
+						<td class="td" style="border-right: 1px solid grey;width: 33.33%">
+							<strong>起拍价</strong>
+							<div id="startPrice">没有</div>
+						</td>
+
+						<td class="td" style="border-right: 1px solid grey;width: 33.33%">
+							<strong>保证金</strong>
+							<div id="insurance">没有</div>
+						</td>
+						<td class="td">
+							<strong>每次加价</strong>
+							<div name="addMiniPrice" id="addMiniPrice">没有</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="userOffer" id="starList">
+			<div id="wrapper">
+				<div id="scroller">
+					<ul id="theList">
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--用户出价-->
+
+	<script>
+		var t1 = new TouchScroll({
+			id: 'wrapper',
+			'width': 5,
+			'opacity': 0.7,
+			color: '#555',
+			minLength: 20
+		});
+	</script>
+</div>

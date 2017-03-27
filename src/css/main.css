@@ -1,0 +1,460 @@
+html,body,h1,h2,span,ul,li,p,div,img{
+    margin: 0;
+    padding: 0;
+    font-family: "SimHei" ;
+
+}
+html{
+    background-color: #EDEDEE;
+}
+
+body * { max-height: 999999px; }
+
+body{
+    margin-bottom: 100px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-size: 32px;
+}
+
+.tag{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    height: 88px;
+}
+
+.tagIn{
+    width: 93%;
+    width: 93%;
+    height: 32px;
+    margin: auto;
+    background-color: white;
+    padding-top:23px ;
+    position: relative;
+}
+.tag
+span{
+    display: inline-block;
+    margin: auto;
+    line-height: 36px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 36px;
+
+}
+
+.quit img{
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 28px;
+    left: 0;
+}
+
+#sharing img{
+
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 28px;
+    right: 0;
+}
+
+.flicker-example{
+    background-color: white;
+    width: 100%;
+}
+
+.flicker-example img{
+    width: 100%;
+    margin: 0;
+}
+
+.commodityTex{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    background-color: white;
+    width: 100%;
+}
+.commodityTex>div{
+    width: 93%;
+    margin: auto;
+}
+.commodityTex h2{
+    font-size: 36px;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.commodityTex p{
+    font-size: 32px;
+    color: #9E9FA0;
+    padding-bottom: 15px;
+}
+.recommend{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    font-size:30px ;
+    font-weight: 600;
+    height:80px;
+    background-color: white;
+}
+.recommend div{
+    width: 93%;
+    margin: auto;
+    padding-top: 17px;
+}
+.recommend img{
+    float: left;
+    margin-right: 20px;
+    width: 55px;
+    height: 55px;
+}
+.recommend p{
+    padding-top: 10px;
+}
+.commodityDetails{
+    width: 100%;
+}
+.commodityDetailsIn{
+    background-color: white;
+
+}
+.commodityDetailsIn>div{
+    width: 93%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    margin-top: 10px;
+}
+.rule{
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 32px;
+    height: 88px;
+
+}
+.rule>div{
+    width: 93%;
+    margin: auto;
+    padding-top: 17px;
+}
+.rule>div span{
+    display: inline-block;
+    margin-right: 5px;
+    padding-top: 10px;
+}
+.pai img{
+    width: 34px;
+    margin-top: 10px;
+}
+.pai{
+    float: left;
+    width: 55px;
+    margin-right: 10px;
+}
+.paiMore{
+    float: right;
+    margin-top: 10px;
+}
+.author h2{
+    font-size: 32px;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.author p{
+    color: #9E9FA0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+.productsDescription h2{
+    font-size: 32px;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.productsDescription ul{
+    width:90%;
+    margin: auto;
+}
+.productsDescription > ul li{
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    height:2.5em;
+
+}
+.akey{
+    display: inline-block;
+    float: left;
+    width: 4em;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+.avalue{
+    display: inline-block;
+    float: right;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 7em;
+}
+.productsDescription img{
+    width:98%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*以上主体部分*/
+
+/*一下为计时前css*/
+*{ margin:0; padding: 0; border: 0}
+#beforeStart{
+    text-align: center;
+    font-size: 50px;
+}
+.beforeStartTime{
+    line-height:80px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    margin-top: 10px;
+
+}
+.beforeStartTime span{
+    display: inline-block;
+    font-size: 34px;
+}
+
+.payMsg{
+    background-color: #ffffff;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.payMoney{
+    width:92%;
+    margin-left:4%;
+    position: relative;
+    padding-top: 5px;
+    box-sizing: border-box;
+
+}
+.payMoney .payMoneyList .td{
+    width:33%;
+    text-align: center;
+}
+.payMoney .payMoneyList .td div{
+    color: #d76b6b;
+}
+.td div{
+    color: #d76b6b;
+    margin-top: 10px;
+    font-size: 32px;;
+}
+.offer{
+    width: 686px;
+    height: 88px;
+    font-size: 40px;
+    color: #fff;
+    /*background-image: url(../img/拍卖页面/payment_bg_disabled@2x.png);*/
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.td strong{
+    font-size: 34px;
+    font-weight: 500;
+}
+/*以下为拍卖规则的页面*/
+.ruleImg{
+    margin-top:37px ;
+    background-color: #ffffff;
+}
+.ruleOver{
+    background-color: #ffffff;
+}
+
+.firstLi{
+    background: url('../img/拍卖页面/payment_icon_ranking@2x.png') no-repeat 0px -5px;
+}
+
+#scroller ul li{
+    width: 100%;
+    margin: auto;
+}
+
+
+/*以下为unpaid和lowPrice*/
+
+#unpaid>div,#lowPrice>div{
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+#unpaid h2,#lowPrice h2{
+    font-size: 48px;
+    color: #D76A6A;
+    margin-top: 30px;
+    text-align: center;
+}
+.unpaidTxt,.lowPriceTxt{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.unpaidTxt p,.lowPriceTxt p{
+    font-size: 30px;
+    color: #CB9966;
+}
+
+.unpaidTxt ul{
+    margin-top: 30px;
+}
+
+.unpaidTxt ul li{
+    width: 49%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+}
+.lowPriceTxt ul{
+    margin-top: 30px;
+}
+
+.lowPriceTxt ul li{
+    width: 49%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.unpaidTxt span{
+    font-size: 32px;
+}
+
+#unpaidList,#lowPriceList,{
+    padding-bottom: 50px;
+}
+
+.userOffer{
+    padding-bottom: 80px;
+}
+
+
+#highestPrice{
+    border-right: 3px solid lightgrey;
+}
+
+#highestPrice p{
+    color: #B1B1B1;
+    padding-top: 20px;
+}
+
+#transactionPrice p{
+    color: #D45D5D;
+    padding-top: 20px;
+}
+
+/*以下为waitingPayment*/
+
+#waitingPayment>div{
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.waitingPaymentTxt{
+    padding-bottom: 130px;
+}
+
+.waitingPaymentTxt >div{
+    width: 70%;
+    margin: auto;
+}
+
+.waitingPaymentTxt ul{
+    margin-top: 30px;
+}
+
+.waitingPaymentTxt ul li{
+    width: 49%;
+    float: left;
+    text-align: center;
+}
+
+.waitingPaymentTxt h2{
+    font-size: 36px;
+}
+
+.waitingPaymentTxt span{
+    font-size: 32px;
+}
+
+#highestPrice{
+    border-right: 3px solid lightgrey;
+}
+
+#highestPrice p{
+    color: #B1B1B1;
+    padding-top: 20px;
+}
+
+#transactionPrice p{
+    color: #D45D5D;
+    padding-top: 20px;
+}
+
+.waitingPaymentTxtName{
+    color: #000000;
+}
+
+#lowPriceList h2,.userOffer h2{
+    font-size: 40px;
+    color:  #D45D5D;
+}
+
+#waitingPayment{
+    margin-bottom: 10px;
+}
+
+/*completeSettlement*/
+
+#completeSettlement>div{
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.overPayMoney{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+#completeSettlement>div{
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+

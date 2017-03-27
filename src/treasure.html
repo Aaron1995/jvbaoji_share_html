@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/userOffer.css">
+	<link rel="stylesheet" type="text/css" href="css/sharing.css">
+	<script src="js/touchScroll.js"></script>
+	<script src="js/jQuery-1.min.js"></script>
+	<script src="js/getJsonData.js"></script>
+	<script src="js/getTreasure.js"></script>
+
+	<!--Required libraries-->
+	<script src="js/min/jquery-v1.10.2.min.js" type="text/javascript"></script>
+	<script src="js/min/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+	<script src="js/min/hammer-v2.0.3.min.js" type="text/javascript"></script>
+
+	<!--Include flickerplate-->
+	<link href="css/flickerplate.css" type="text/css" rel="stylesheet">
+	<script src="js/min/flickerplate.min.js" type="text/javascript"></script>
+
+	<body>
+		<div class="wrapper">
+			<div class="tag">
+				<div class="tagIn">
+					<!--标签栏-->
+					<span id="auctionDetailsPage">拍品详情页</span>
+				</div>
+			</div>
+
+			<div class="flicker-example">
+				<ul id="flicker">
+					<li><img id="flicker_img1" src="img/payment_banner_picture@2x.png" /></li>
+					<li><img id="flicker_img2" src="img/payment_banner_picture@2x.png" /></li>
+					<li><img id="flicker_img3" src="img/payment_banner_picture@2x.png" /></li>
+				</ul>
+			</div>
+			<div class="commodityTex">
+				<div>
+					<h2 name="name" id="name">拍品名称</h2>
+					<p id="introduction"></p>
+				</div>
+			</div>
+		</div>
+		<!--轮播 banner-->
+
+		<div id="main"></div>
+
+		<div class="commodityDetails">
+			<!--拍品信息-->
+			<div class="rule" id="openRule" onclick="openRule()">
+				<div>
+					<div class="pai"><img src="img/payment_icon_action@2x.png"></div>
+					<span>拍卖规则</span>
+					<img src="img/my_icon_arrow@2x.png" class="paiMore">
+				</div>
+			</div>
+			<div class="recommend">
+				<div id="agency">
+					<img id="orgIcon" src="img/payment_icon_user@2x.png">
+					<p id="orgPrincipal">推荐人</p>
+				</div>
+			</div>
+			<div class="commodityDetailsIn">
+				<div>
+					<div class="author">
+						<h2>拍品描述</h2>
+						<p id="describing"></p>
+					</div>
+					<div class="productsDescription" id="divProductsDescription">
+						<h2>拍品参数</h2>
+						<ul id="productsDescriptionList">
+							<li><span class="akey">重量</span><span class="avalue">30g</span></li>
+							<li><span class="akey">重量</span><span class="avalue">30g</span></li>
+							<li><span class="akey">重量</span><span class="avalue">30g</span></li>
+							<li><span class="akey">重量</span><span class="avalue">30g</span></li>
+							<li><span class="akey">重量</span><span class="avalue">30g</span></li>
+							<li><span class="akey">重量</span><span class="avalue">30g</span></li>
+						</ul>
+						<div>
+							<ul id="parameterImg">
+								<img src="img/payment_picture@2x.png">
+								<img src="img/payment_picture@2x.png">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="sharingCheck" onclick="openAuctionItem()">
+			<span>查看拍卖</span>
+		</div>
+	</body>
+
+</html>

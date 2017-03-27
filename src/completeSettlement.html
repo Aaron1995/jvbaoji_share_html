@@ -1,0 +1,49 @@
+<div id="completeSettlement">
+    <div class="waitingPaymentTxt">
+        <div>
+			<div>
+				<img src="img/payment_icon_user@3x.png" id="winnerImg" />
+				<span><p id="winnerName"></p></span>
+				<span class="waitingPaymentTxtReady">竞拍成功,买家已付款</span>
+			</div>
+			<ul>
+				<li id="highestPrice">
+					<h2>最高价格</h2>
+					<p id="highestAmount">8000</p>
+				</li>
+				<li id="transactionPrice">
+					<h2>成交价格</h2>
+					<p id="successfulPrice">8000</p>
+				</li>
+			</ul>
+		</div>
+        </div>
+    </div>
+    <div id="lowPriceList">
+
+        <h2>佣金榜单</h2>
+        <div class="userOffer" id="starList">
+            <div id="wrapper">
+                <div id="scroller">
+                    <ul id="theList1">
+                    </ul>
+
+                </div>
+            </div>
+            <script>
+                var t1=new TouchScroll({id:'wrapper','width':5,'opacity':0.7,color:'#555',minLength:20});
+            </script>
+        </div>
+    </div>
+	<div class="userOffer" id="starList">
+		
+		<h2>出价实况</h2>
+		<div id="wrapper">
+			<div id="scroller">
+				<ul id="theList">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

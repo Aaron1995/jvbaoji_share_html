@@ -1,0 +1,63 @@
+<div id="sharingMain">
+    <div class="sharingProcess">
+        <ul>
+        	<li>
+        		<p id="total_reward_amount"></p>
+        	</li>
+            <li>
+                <img src="img/payment_icon_user@3x.png" id="sharingUserImg">
+            </li>
+            <li>
+                <p id="sharingUserName">请等待</p>
+            </li>
+            <li>
+                <img src="img/shibei_dianzan_unselected@3x.png" id="appreciateImg" onclick="dianzan()">
+            </li>
+            <li>
+                <span id="appreciate"></span>
+            </li>
+            <li class="sharingJoin">
+                <ul class="sharingHr" id="sharingHr">
+                    <li><hr></li>
+                    <li><hr></li>
+                </ul>
+                <ul  class="sharingJoinImg" id="sharingJoinImg">
+                    <li>
+                        <img src="img/shibei_jingxing_icon@3x.png" id="statusImg1">
+                        <p id="statusP1">等待拾贝</p>
+                    </li>
+                    <li>
+                        <img src="img/shibei_dengdai_icon@3x.png" id="statusImg2">
+                        <p id="statusP2">等待结算</p>
+                    </li>
+                    <li>
+                        <img src="img/shibei_jiesuan_icon@3x.png" id="statusImg3">
+                        <p id="statusP3">结算结束</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="sharingReward" id="sharingReward" >
+        <p>拾贝奖励排行</p>
+        <div id="wrapper">
+            <div id="scroller">
+                <ul id="theList">
+                    
+                </ul>
+
+            </div>
+        </div>
+        <script>
+            var t1=new TouchScroll({id:'wrapper','width':5,'opacity':0.7,color:'#555',minLength:20});
+        </script>
+        <div class="sharongStatistics">
+            <div>
+                <span id="totalPeople">参与人数123人，</span>
+                <span id="totalPraiseNum">共计123456赞</span>
+            </div>
+        </div>
+
+    </div>
+
+</div>
