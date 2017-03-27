@@ -103,6 +103,12 @@ table{
     width: 33.33%;
     float: left;
 }
+
+#theList li img{
+   border-radius: 50%;
+    overflow: hidden;
+}
+
 #scroller li ,#scroller1 li {
 	font-size:30px;
 	width:95%;
@@ -111,8 +117,28 @@ table{
 	border-bottom: 1px solid white;
     padding-bottom: 40px;
     padding-top: 40px;
+    height: 80px;
 }
 
+
+.goLow{
+    padding-top: 30px;
+}
+
+.goRight{
+    padding-top: 30px;
+    width: 30%;
+    text-align: right;
+}
+
+.goLeft{
+    width: 20%;
+}
+
+.goMiddle{
+    padding-top: 30px;
+   width: 50%;
+}
 
 #starList #scroller li span{
     width: 25%;
@@ -120,8 +146,9 @@ table{
     display: inline-block;
 }
 
-#sharingReward #scroller  li span{
-    width: 33.33%;
+
+#scroller  li span{
+
     float: left;
     display: inline-block;
     font-size: 34px;
@@ -158,11 +185,10 @@ table{
     height:40px;
     line-height:40px;
     padding:5px 10px;
-    border-bottom:1px solid #ccc;
     font-weight:bold;
     font-size:14px;
     color:#888;
-    width: 15%;
+    width: 25%;
     margin: auto;
 }
 #pullDown .pullDownIcon, #pullUp .pullUpIcon,#pullDown1 .pullDownIcon, #pullUp1 .pullUpIcon  {

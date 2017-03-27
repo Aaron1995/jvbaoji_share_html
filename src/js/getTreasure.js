@@ -116,7 +116,7 @@ function afterList(data) {
 	var userItems = [];
 	$theList.empty();
 	for (x in data) {
-		var addUI = ' <span><img src="' + data[x][1]["avatar_mini"] + '"></span> <span>' + data[x][1]["nickname"] + '</span>  <span>已获' + data[x][0]["praiseNum"] + '赞</span>';
+		var addUI = ' <span class="goLeft"><img src="' + data[x][1]["avatar_mini"] + '"></span> <span class="goMiddle">' + data[x][1]["nickname"] + '</span>  <span  class="goRight">已获' + data[x][0]["praiseNum"] + '赞</span>';
 		if (treasure['status'] == 3) {
 			addUI += '<span>奖励' + data[x][0]['rewardAmount'] + '元</span>';
 		}
@@ -124,6 +124,13 @@ function afterList(data) {
 	}
 	$theList.html(userItems);
 	$("#theList li:first").css("background", " url('./img/拍卖页面/payment_icon_ranking@2x.png') no-repeat 0px -5px");
+    var theListScroll = new TouchScroll({
+        id: 'wrapper',
+        'width': 5,
+        'opacity': 0.7,
+        color: '#555',
+        minLength: 20
+    });
 	//不停刷新数据
 }
 
@@ -157,7 +164,7 @@ function showStatusImg(status) {
 			$("#total_reward_amount").show();
 			$("#total_reward_amount").html("拾贝活动因拍品流拍失效");
 			$("#appreciate").html("无奖励");
-			$("#statusP3").html("拍品流拍用户无奖励");
+			$("#statusP3").html("拍品流拍");
 			break;
 		case 5:
 			$("#statusImg1").attr("src", "img/shibei_jingxing_icon_selected@3x.png");

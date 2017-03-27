@@ -1,17 +1,17 @@
-<div id="sharingMain">
+<div id="sharingMain" >
     <div class="sharingProcess">
         <ul>
         	<li>
         		<p id="total_reward_amount"></p>
         	</li>
             <li>
-                <img src="img/payment_icon_user@3x.png" id="sharingUserImg">
+                <img src="img/payment_icon_user@3x.png" id="sharingUserImg" >
             </li>
             <li>
                 <p id="sharingUserName">请等待</p>
             </li>
             <li>
-                <img src="img/shibei_dianzan_unselected@3x.png" id="appreciateImg" onclick="dianzan()">
+                <img src="img/shibei_dianzan_unselected@2x.png" id="appreciateImg" onclick="dianzan()">
             </li>
             <li>
                 <span id="appreciate"></span>
@@ -42,15 +42,13 @@
         <p>拾贝奖励排行</p>
         <div id="wrapper">
             <div id="scroller">
-                <ul id="theList">
-                    
-                </ul>
+                <ul id="theList"></ul>
+                <div id="pullUp" >
+                    <span class="pullUpIcon"></span><span class="pullUpLabel"  onclick="refresh=true;startGetData()">点击加载更多.....</span>
+                </div>
 
             </div>
         </div>
-        <script>
-            var t1=new TouchScroll({id:'wrapper','width':5,'opacity':0.7,color:'#555',minLength:20});
-        </script>
         <div class="sharongStatistics">
             <div>
                 <span id="totalPeople">参与人数123人，</span>

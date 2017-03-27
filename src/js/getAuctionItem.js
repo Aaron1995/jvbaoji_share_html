@@ -283,7 +283,7 @@ function afterList(data, data1) {
 	$theList.empty();
 	for (x in jsonUser) {
 		var jsonUserInform = jsonUser[x];
-		userItems.push(' <li> <span><img src="' + jsonUserInform[1]["avatar_mini"] + '"></span> <span>' + jsonUserInform[1]["nickname"] + '</span> <span>佣金' + commission + '</span> <span>出价' + jsonUserInform[0]["bidPrice"] + '</span> </li>');
+		userItems.push(' <li> <span><img src="' + jsonUserInform[1]["avatar_mini"] + '"></span> <span class="goLow">' + jsonUserInform[1]["nickname"] + '</span> <span class="goLow">佣金' + commission + '</span> <span class="goLow">出价' + jsonUserInform[0]["bidPrice"] + '</span> </li>');
 	}
 	$theList.html(userItems);
 	$("#theList li:first").css("background", " url('./img/拍卖页面/payment_icon_ranking@2x.png') no-repeat 0px -5px");
@@ -300,7 +300,7 @@ function afterList(data, data1) {
 		for (y in jsonCommission) {
 			var jsonCommissionInfo = jsonCommission[y];
 			console.log(jsonCommissionInfo);
-			commissionList.push(' <li> <span><img src="' + jsonCommissionInfo[1]["avatar_mini"] + '"></span> <span>' + jsonCommissionInfo[1]["nickname"] + '</span> <span>获得佣金' + jsonCommissionInfo[0]['commission'] + '</span> </li>');
+			commissionList.push(' <li> <span><img src="' + jsonCommissionInfo[1]["avatar_mini"] + '"></span> <span class="goLow">' + jsonCommissionInfo[1]["nickname"] + '</span> <span class="goLow">获得佣金' + jsonCommissionInfo[0]['commission'] + '</span> </li>');
 		}
 		$theList1.html(commissionList);
 		$("#theList1 li:first").css("background", " url('./img/拍卖页面/payment_icon_ranking@2x.png') no-repeat 0px -5px");

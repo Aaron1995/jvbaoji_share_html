@@ -71,6 +71,11 @@
     height: 8px;
 }*/
 
+.touchscrollelement{
+    width: 100%;
+    margin: auto;
+}
+
 .sharingHr{
     width: 80%;
     margin: auto;
